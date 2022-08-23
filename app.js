@@ -68,8 +68,10 @@ function updateReview(id, name, job, img, text) {
   j.innerText = job;
 
   let i = document.querySelector(".profile-photo");
-  i.setAttribute("src", img)
+  i.setAttribute("src", img);
 
+  let description = document.querySelector(".description");
+  description.innerText = text;
 }
 
 // output index for reviews
