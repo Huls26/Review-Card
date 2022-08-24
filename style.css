@@ -11,7 +11,106 @@ img {
     border-radius: 50%;
 }
 
+body {
+    background-color: antiquewhite;
+}
+
 .image {
     width: 150px;
     height: 150px;
+    margin: 0px auto;
+    margin-bottom: 1em;
+}
+
+img {
+    box-shadow: 5px -8px #888888;
+}
+
+.container {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    width: 26em;
+    padding: 2em;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3;
+    box-shadow: 5px 7px 5px rgba(56, 55, 55, 0.461);
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;   
+}
+
+.underline {
+    width: 6em;
+    height: 5px;
+    background-color: blueviolet;
+    margin-bottom: 3em;
+}
+
+.job-title {
+    color:blue;
+    font-size: .8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.description {
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.btn-container > button {
+    margin-bottom: .5em;
+    padding: 0px .2em;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: white;
+    border-color: rgb(41, 165, 165);
+    box-shadow: 5px 7px 5px rgba(56, 55, 55, 0.461);
+    transition: color .5s, background-color 1s, border-color .1s;
+    transition-delay: .3s;
+}
+
+.btn-container > button:first-child {
+    margin-right: .2em;
+}
+
+.btn-container > button:hover {
+    border-color: azure;
+    color: aqua;
+    background-color: violet;
+}
+
+.random-btn {
+    color: chocolate;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    letter-spacing: .1em;
+    padding: .3em 1em;
+    border-radius: 10px;
+    border-color: rgb(114, 4, 4);
+    background-color: rgb(60, 13, 94);
+    box-shadow: 5px 7px 5px rgba(56, 55, 55, 0.461);
+
+    transition: color .5s, background-color 1s, border-color .1s;
+    transition-delay: .3s;
+}
+
+.random-btn:hover {
+    border-color: azure;
+    color: blue ;
+    background-color: violet;
 }
